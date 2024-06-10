@@ -1,9 +1,16 @@
 body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
+    /* text-align: center; */
 }
 
-.conteiner {
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.container {
     width: 1360px;
     height: 720px;
 }
@@ -14,10 +21,12 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 1080px;
+    position: relative;
 }
 
 .main-page {
     background: linear-gradient(270deg, #a5deff 0%, #fcfefe 100%);
+    /* text-align: center; */
 }
 
 .main-page-text-container {
@@ -73,4 +82,67 @@ body {
     display: flex;
     flex-direction: column;
     gap: 58px;
+}
+
+.goit-logo {
+    position: absolute;
+    top: 32px;
+    left: 0;
+}
+
+.facts {
+    padding-top: 48px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.facts-gerb {
+    margin-bottom: 24px;
+}
+
+.facts-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: #1b1d1f;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.facts-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #1b1d1f;
+    margin-bottom: 24px;
+    width: 772px;
+    margin: auto;
+    margin-top: 0;
+}
+
+.facts-item {
+    width: calc((100% / 3) - (24*2) / 3);
+}
+
+/* .facts-img {} */
+
+.facts-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    color: #1b1d1f;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.facts-item-text {
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    text-align: center;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 0;
 }
